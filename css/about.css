@@ -1,0 +1,100 @@
+﻿
+.info { width: 1000px; margin: 40px auto; overflow: hidden; clear: both }
+.info figure { display: inline-block; width: 630px; height: 250px; position: relative; -webkit-animation: pageTop 6s ease 0.5s backwards; -moz-animation: pageTop 6s ease 0.5s backwards; -ms-animation: pageTop 6s ease 0.5s backwards; -o-animation: pageTop 6s ease 0.5s backwards; animation: pageTop 6s ease 0.5s backwards; float: left; }
+.info figcaption { padding: 30px; position: absolute; top: 15%; left: 20px; background: rgba(153,153,153,.8); opacity: 0; -webkit-transition: opacity .75s ease-out; -moz-transition: opacity .75s ease-out; -o-transition: opacity .75s ease-out; transition: opacity .75s ease-out; }
+.info figure:hover figcaption { opacity: 1; }
+.info figcaption strong { display: block; line-height: 40px }
+.card { border-radius: 6px; width: 350px; float: right; height: 150px; overflow: hidden;margin-right:50px; }
+.card h1 { padding: 10px;}
+.card p:first-child { padding: 40px 0 0 40px }
+.card p { padding: 0 0 0 40px; line-height: 28px; -webkit-animation: animations2 5s ease-in-out 5s; -moz-animation: animations2 5s ease-in-out 5s; -o-animation: animations2 5s ease-in-out 5s; -ms-animation: animations2 5s ease-in-out 5s; animation: animations2 5s ease-in-out 5s; }
+.linkmore { margin: 15px 0 0 15px }
+.linkmore li a { height: 50px; width: 50px; display: block; overflow: hidden; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7); border-radius: 50%; float: left; margin: 0 6px; }
+.linkmore li a:hover { opacity: 0.5; -webkit-transform: rotate(30deg); -ms-transform: rotate(30deg); -moz-transform: rotate(30deg); -o-transform: rotate(30deg); transform: rotate(30deg); }
+.talk, .address, .email, .photos, .heart { background: url(../images/icons.png) no-repeat; }
+.talk { background-position: 13px 18px }
+.address { background-position: 12px -22px }
+.email { background-position: 12px -60px }
+.photos { background-position: 12px -137px }
+.heart { background-position: 13px -99px }
+* {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+a, img {
+	border:0;
+}
+body {
+	font:12px/180% Tahoma, Geneva, sans-serif;
+}
+#carousel1 {
+	width:960px;
+	height:600px;
+	overflow:hidden;
+	position:relative;
+	border-bottom:solid 1px #d8d9da;
+	margin:0 auto;
+}
+#carousel1 img {
+	border:none;
+	width:240px;
+	height:260px;
+	border:solid 1px #d8d9da;
+}
+#carousel1 #title-text {
+	font-size:22px;
+	margin:10px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #alt-text {
+	font-size:14px;
+	margin:5px 20px 0 0;
+	padding:0;
+	text-align:right;
+}
+#carousel1 #user-c {
+	padding:0;
+	position:absolute;
+	right:15px;
+	bottom:10px;
+}
+#carousel1 .carouselLeft, #carousel1 .carouselRight {
+	position:absolute;
+	bottom:20px;
+	width:29px;
+	height:30px;
+	overflow:hidden;
+	cursor:pointer;
+}
+#carousel1 .carouselLeft {
+	right:60px;
+	background:url(images/templatemo_slider_right.png) no-repeat;
+}
+#carousel1 .carouselRight {
+	right:808px;
+	background:url(images/templatemo_slider_left.png) no-repeat;
+}
+
+}
+@charset "gb2312";
+#main { overflow: hidden }
+.about_h { font-size: 12px; color: #666; line-height: 30px; height: 30px; border-bottom: #d7d7d7 1px solid; padding-left: 60px; margin: 20px; background: url(../images/5849.png) 40px 5px no-repeat; }
+.about_h a { color: #666; margin: 0 5px; }
+.about_h a:hover { color: #e41635 }
+.about { line-height: 22px; margin: 20px; }
+.about h2 { font-size: 22px; font-family: cursive; margin-bottom: 20px; color: #f16b17 }
+.about p { margin-bottom: 15px }
+.about ul { color: #333 }
+a.blog_link { color: #0f9c7c; margin: 0 20px }
+.avatar { margin: 10px auto; width: 160px; height: 160px; border-radius: 100%; overflow: hidden; }
+.avatar a { display: block; padding-top: 100px; width: 160px; background: url(../images/photos.jpg) no-repeat; background-size: 160px 160px; }
+.avatar a span { display: block; margin-top: 63px; padding-top: 8px; width: 160px; height: 55px; text-align: center; line-height: 20px; color: #fff; background: rgba(0, 0, 0, .5); -webkit-transition: margin-top .2s ease-in-out; -moz-transition: margin-top .2s ease-in-out; -o-transition: margin-top .2s ease-in-out; transition: margin-top .2s ease-in-out; }
+.avatar a:hover span { display: block; margin-top: 0; }
+.topspaceinfo { background: #e41635; padding: 40px 20px; color: #fff; text-shadow: 1px 1px rgba(0,0,0,.3); }
+.topspaceinfo h1 { font-size: 16px; line-height: 40px; font-weight: bold; }
+.about_c { margin: 10px 0; color: #fff; line-height: 22px; }
+.about_c p { display: block; padding-left: 20px; margin-bottom: 5px }
+.viny dl dd { color: #b9b9b9; line-height: 24px; }
+.art { background: url(../images/vinyl.png) no-repeat left; width: 130px; float: left; background-size: 120px; }
